@@ -1,5 +1,29 @@
-/* CONTROLLO CONNESSIONE HTML-CSS */
-body {
-    background-color: black;
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+/* COMMON */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    cursor: pointer;
+    color: inherit;
 }
 
