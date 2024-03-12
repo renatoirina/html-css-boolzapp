@@ -1,11 +1,42 @@
-/* APPROCCIO MOBILE-FIRST */
+/* DESKTOP FIRST */
 
 /* TABLET */
-@media screen and (min-width: 753px) {
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        height: 100vh;
 
+        /* debug */
+        background-color: blue;
+    }
+    
+    .nav{
+        height: 100%;
+        width: 20%;
+
+        /* debug */
+        border: 8px solid coral;
+    }
+
+    .chat{
+        height: 100%;
+        width: 80%;
+
+        /* debug */
+        border: 8px solid red;
+    }
 }
 
-/* DESKTOP */
-@media screen and (min-width: 941px) {
+@media screen and (max-width: 480px) {
+    .nav{
+        display: none;
+    }
 
+    .chat{
+        height: 100%;
+        width: 100%;
+
+        /* debug */
+        border: 8px solid red;
+    }
 }

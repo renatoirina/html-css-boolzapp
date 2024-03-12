@@ -2,10 +2,18 @@
 
 /* custom properties */
 :root{
-    --header-color: #009688;
-    --notification: #B5DDFF;
-    --background-chat: #e4dcd4;
-    --background-body: #dadbd3;
-    --background-text: white;
-    --header-chat:#eaeaea;
+    
+}
+
+/* layout */
+.flex{
+    display: flex;
+}
+
+.main-center{
+    justify-content: center;
+}
+
+.cross-center{
+    align-items: center;
 }

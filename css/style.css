@@ -5,25 +5,35 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 100%;
-}
-
 /* COMMON */
-html{
-    scroll-behavior: smooth;
+/* layout */
+main{
+    height: 100vh;
+
+    /* DEBUG */
+    background-color: green;
 }
 
-body{
-    
+.container{
+    width: 80%;
+    height: 93vh;
+
+    /* DEBUG */
+    background-color: blue;
 }
 
-ul{
-    list-style-type: none;
+.nav{
+    height: 100%;
+    width: 30%;
+
+    /* DEBUG */
+    border: 8px solid coral;
 }
 
-a{
-    cursor: pointer;
-    color: inherit;
-}
+.chat{
+    height: 100%;
+    width: 70%;
 
+    /* DEBUG */
+    border: 8px solid red;
+}
