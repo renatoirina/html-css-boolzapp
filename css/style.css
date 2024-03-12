@@ -7,18 +7,18 @@
 
 /* COMMON */
 /* layout */
-main{
+.webapp{
     height: 100vh;
 
-    /* DEBUG */
+    /* debug */
     background-color: green;
 }
 
 .container{
     width: 80%;
-    height: 93vh;
+    height: 95vh;
 
-    /* DEBUG */
+    /* debug */
     background-color: blue;
 }
 
@@ -26,14 +26,69 @@ main{
     height: 100%;
     width: 30%;
 
-    /* DEBUG */
-    border: 8px solid coral;
+    /* debug */
+    background-color: coral;
 }
 
-.chat{
-    height: 100%;
+.chat-ui{
+    height: 95vh;
     width: 70%;
 
-    /* DEBUG */
-    border: 8px solid red;
+    /* debug */
+    background-color:  red;
+}
+
+
+header{
+    height: 60px;
+
+    /* debug */
+    background-color: black;
+}
+
+/* NAV */
+.notifications{
+    height: 70px;
+
+    /* debug */
+    background-color: aqua;
+}
+
+.all-contact{
+    height: calc(95vh - var(--headerheight) - var(--notifyheight) - var(--searchbarheight));
+    overflow: auto;
+}
+.contact{
+    height: 60px;
+
+    /* debug */
+    border: 5px solid black;
+}
+
+/* CHAT-UI */
+.chat{
+    height: 100%;
+}
+
+.messages{
+    height: calc(95vh - 120px);
+    padding: 2rem 3.5rem;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.sent, .incoming{
+    margin-bottom: 10px;
+}
+
+.message{
+    width: 70%;
+
+    /* debug */
+    border: 5px solid white;
+}
+
+.typing{
+    height: 60px;
+    background-color: white;
 }

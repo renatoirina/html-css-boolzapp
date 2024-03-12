@@ -5,25 +5,30 @@
     .container{
         width: 100%;
         height: 100vh;
-
-        /* debug */
-        background-color: blue;
     }
-    
+
     .nav{
-        height: 100%;
-        width: 20%;
-
-        /* debug */
-        border: 8px solid coral;
+        width: 10%;
     }
 
-    .chat{
-        height: 100%;
-        width: 80%;
+    .chat-ui{
+        width: 90%;
+    }
 
-        /* debug */
-        border: 8px solid red;
+    .search-contact{
+        display: none;
+    }
+
+    .notifications{
+        display: none;
+    }
+
+    .all-contact{
+        height: 91vh;
+    }
+
+    .messages{
+        height: calc(100vh - 120px);
     }
 }
 
@@ -32,11 +37,7 @@
         display: none;
     }
 
-    .chat{
-        height: 100%;
+    .chat-ui{
         width: 100%;
-
-        /* debug */
-        border: 8px solid red;
     }
 }
