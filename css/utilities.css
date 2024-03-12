@@ -1,13 +1,25 @@
 /* UTILITIES */
-
-/* custom properties */
+/* CUSTOM PROPERTIES */
+/* height */
 :root{
     --headerheight: 60px;
     --notifyheight: 70px;
-    --searchbarheight:20px;
+    --searchbarheight:35px;
+    --inputbarheight: 60px;
+}
+/* colors */
+:root{
+    --headergrey: #EAEAEA;
+    --previewtextgrey: #B7BABD;
+    --iconsgrey: #B1B1B1;
+    --typingiconsgrey: #6B7376;
+    --messagegreen: #D5F9BA;
+    --notifyblue: #8EDAFC; 
+    --backgroundgrey: #D9DBD5;
+    --backgroundgreen: #009688;
 }
 
-/* layout */
+/* flex */
 .flex{
     display: flex;
 }
@@ -35,4 +47,36 @@
 
 .end{
     justify-content: end;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+/* colors */
+.icongrey{
+    color: var(--iconsgrey);
+}
+.typing-icons-grey{
+    color: var(--typingiconsgrey);
+}
+.greytext{
+    color: var(--previewtextgrey);
+}
+
+/* sizes */
+.smallfont{
+    font-size: 0.8rem;
+}
+
+.smallerfont{
+    font-size: 0.7rem;
+}
+
+.verysmallfont{
+    font-size: 0.6rem;
+}
+
+.p-y-2{
+    padding: 2px 0;
 }
